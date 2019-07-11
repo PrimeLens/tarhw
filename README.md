@@ -20,7 +20,8 @@
 2. Show `Loading` in UI while app makes GET calls for CSV files 
 3. Parse file data to json
 4. Save json in its original form in `appStore`
-5. Transform the original data so its usable for the UI and save in `appStore`
+5. Transform data so its usable for the UI, save in `appStore` see <br/>
+   [/src/my_libraries/dataTransforms.js](./src/my_libraries/dataTransforms.js)
 6. Tell the UI displays the transformed data
 
 ## Debug state at runtime
