@@ -1,0 +1,34 @@
+
+.homeworkapp {
+}
+
+HTML {
+  background-color: #f9fafd;
+}
+
+/* 
+  bootstraps use of box-sizing: border-box
+  taken from bootstrap 3
+*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* more general stuff that I like */
+IMG { display: block; }
+UL, OL { margin: 0; padding: 0; list-style-type: none; }
+body { 
+  font-family: "Arial",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body, html, A, IMG { padding: 0; border: 0; margin: 0; }
+#root { position: relative; }
+#root { margin: 0 auto; overflow: hidden; }
