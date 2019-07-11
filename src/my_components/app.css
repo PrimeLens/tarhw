@@ -5,7 +5,9 @@
 HTML {
   background-color: #f9fafd;
 }
-
+HTML, BODY, #root { 
+  min-width: 900px;
+}
 /* 
   bootstraps use of box-sizing: border-box
   taken from bootstrap 3
